@@ -1,7 +1,12 @@
-# Nome da Aplicação
+# Projeto estacionamento
 
 ## Descrição
-Este é um simples projeto Spring Boot que expõe um endpoint "Hello World". Este projeto serve como base para a implementação de pipelines de CI/CD.
+Você faz parte do time que construirá um sistema de controle para um estacionamento.  
+Você foi imcumbido de implementar a funcionalidade 'estacionar' que recebe como parametro um carro préviamente cadastrado no sistema e a vaga para qual ele se destina.
+Os requisitos são:  
+Um carro não pode ser estacIonado em uma vaga que já esteja ocupada.  
+Uma vez que todas as vagas estejam ocupadas não deve ser permitida a entrada de novos carros.  
+Desafio, implementar método que retira o carro da vaga.
 
 ## Pré-requisitos
 Para executar este projeto, você precisa ter instalado:
